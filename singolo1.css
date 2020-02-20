@@ -1,0 +1,25 @@
+body header {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+nav {
+    display: flex;
+    background-image: url(assets/header_background.png);
+    width: 1200px;
+    height: 95px;
+}
+
+.logo {
+    flex: 1;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+.menu {
+    display: inline-flex;
+    flex: 2;
+    justify-content: right;
+    margin-bottom: 40px;
+}
