@@ -1,11 +1,81 @@
 @font-face{
     font-family: "Lato";
-    src: url(assets/Lato/Lato-Bold.ttf);
+    src: url(assets/Lato/Lato-Regular.ttf);
     font-style: normal;
     font-weight: normal;
 }
 
+body {
+    margin: 0;
+    font-family: 'Lato', serif;
+}
 
+
+
+
+/* HEADER
+==============*/
+
+.header{
+    width: 1020px;
+    padding: 35px;
+    padding-left: 40px;
+    padding-bottom: 31px;
+    background-color: #2d303a;
+    border-bottom: 5px solid #323746 ;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav{
+    display: flex;
+    font-size: 13px;
+    font-family: "Lato", serif;
+    text-transform: uppercase;
+}
+
+.nav__link{
+    margin-left: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav__link:first-child{
+    margin-left: 0;
+}
+
+.nav__link:hover {
+    color: #f06c64;
+}
+
+
+
+/* OUR SERVICES
+===============*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 body {
     margin: 0;
     font-family: 'Lato', sans-serif;
@@ -22,6 +92,7 @@ body {
     height: 95px;
     position: relative;
     color: #ffffff;
+    font-size: small;
 }
 
 .logo {
@@ -60,11 +131,30 @@ body {
 }
 .iphone-vertical{
     display: flex;
+    z-index: 2;
 }
 .iphone-horizontal{
+    z-index: 2;
     display: flex;
+    position: absolute;
 }
 .arrow-right{
     display: flex;
-    margin-right: 40px;
+    padding-right: 40px;
 }
+.shadow{
+    display: flex;
+    z-index: 1;
+    position: relative;
+}
+.container-3{
+    display: flex;
+    flex-direction: row;
+    background-image: url(assets/bg-bottom.png);
+    justify-content: space-around;
+}
+.pen .phone .bulb .message .heart .star {
+    display: flex;
+    flex-direction: row;
+}
+*/
