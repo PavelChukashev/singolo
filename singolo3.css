@@ -62,7 +62,7 @@ h2{
 }
 
 
-input {
+input{
     background-color: #d6564f;
     height: 37px;
     border-radius: 5px;
@@ -165,7 +165,7 @@ h3 {
     margin-top: 22px;
 }
 
-a {
+a{
     text-decoration: none;
     color: #f0d8d9 !important;
     padding-left: 10px;
@@ -175,9 +175,14 @@ a {
     padding: 0px 2px;
 }
 
-.tel {
+.tel{
     padding: 0px 1px;
 }
+
+
+/* FOOTER
+============*/
+
 
 footer{
     background-color: #2d303a;
