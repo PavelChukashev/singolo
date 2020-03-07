@@ -71,6 +71,10 @@ input {
     margin-top: 16px;
 }
 
+input::-webkit-input-placeholder { 
+    color: #f48c8f; 
+}
+
 input:first-child{
     margin-top: 0;
 }
@@ -85,6 +89,9 @@ textarea{
     margin-top: 16px;
     padding-top: 10px;
     padding-left: 15px;
+}
+textarea::-webkit-input-placeholder { 
+    color: #f48c8f; 
 }
 
 
