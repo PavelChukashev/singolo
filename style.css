@@ -129,7 +129,7 @@ h1{
 }
 
 .iphone__vertical img{
-    margin-right: 18px;
+    margin-right: 17px;
     margin-bottom: 4px;
 }
 
@@ -212,6 +212,8 @@ h1{
 .services__item img{
     align-self: baseline;
     padding-right: 20px;
+    width: 60px;
+    height: 60px;
 }
 
 .services__item__text h3{
@@ -480,7 +482,17 @@ textarea{
     padding-left: 15px;
 }
 textarea::-webkit-input-placeholder { 
-    color: #f48c8f; 
+    color: #f48c8f;
+}
+
+input::-moz-placeholder {
+    color: #f48c8f;
+    opacity: 1;
+}
+
+textarea::-moz-placeholder {
+    color: #f48c8f;
+    opacity: 1;
 }
 
 
