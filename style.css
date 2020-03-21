@@ -289,6 +289,11 @@ h1{
 /*  GALLERY IMAGES
 ==================*/
 
+.portfolio{
+    background-color: #2d303a;
+    color: #666d89;
+}
+
 .gallery{
     background-color: #2d303a;
     border-bottom: 6px solid #323746;
