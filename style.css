@@ -49,6 +49,7 @@ h1{
 .container {
     width: 1020px;
     margin: 0px auto;
+    position: relative;
 }
 
 .header{
@@ -104,7 +105,7 @@ h1{
     margin-right: 13px;
 }
 
-li a{
+ul li a{
     color: white;
     text-decoration: none;
 }
@@ -126,40 +127,66 @@ a:hover {
 /*  MAIN CONTENT
 ==================*/
 
-
-.slider {
+.slider-container{
     background-color: #f06c64;
-    border-bottom: 5px solid #ea676b;
-    padding-top: 95px;
 }
-.slider__items {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-right: 40px;
-    margin-left: 40px;
-    height: 595px;
+.slider-wrap{
+    width: 1020px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 94px;
 }
 
-.iphone__vertical img{
-    margin-right: 17px;
-    margin-bottom: 4px;
+.slider{
+    width: 1020px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
 }
 
-.iphone__horizontal{
-    margin-bottom: 4px;
+.slider img{
+    width: 1020px;
+    height: 600px;
+    position: absolute;
+    opacity: 1;
+    transition: all ease 0.5s;
 }
 
-.slider__button{
-    border: none;
-    outline: none;
-    background: none;
-    opacity: 0.4;
+.slider  .opacity0{
+    opacity: 0;
 }
 
-.slider__button:hover {
-   opacity: 1;
+.btn-left{
+    background: url(assets/arrow_left.png);
+    width: 16px;
+    height: 27px;
+    position: absolute;
+    top: 55%;
+    left: 5%;
+    z-index: 999;
+    opacity: 0.5;
 }
+
+.btn-right{
+    background: url(assets/arrow_right.png);
+    width: 16px;
+    height: 27px;
+    position: absolute;
+    top: 55%;
+    right: 5%;
+    z-index: 999;
+    opacity: 0.5;
+}
+
+.btn-left:hover{
+    opacity: 1;
+}
+
+.btn-right:hover{
+    opacity: 1;
+}
+
 
 /* OUR SERVICES
 ===============*/
