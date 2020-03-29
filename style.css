@@ -317,6 +317,11 @@ a:hover {
     padding: 6px;
 }
 
+.menu__button.active{
+    color: #dedede;
+    border-color: #dedede;
+}
+
 .menu__button:hover{
     color: #dedede;
     border-color: #dedede;
@@ -365,6 +370,10 @@ a:hover {
     border: none;
     margin: 0;
     padding: 0;
+}
+
+.gallery-image-border{
+    border: #F06C64 solid 5px;
 }
 
 /*  ABOUT US  */
